@@ -1,0 +1,96 @@
+*{
+  border: 0;
+  margin: 0;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(204, 0, 255);
+}
+li {
+  display: inline-block;
+ 
+}
+li a {
+  display: block;
+  color: white;
+  padding: 20px 25px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: #111;
+}
+.glava {
+  color: #f8f8f8;
+  align-items: center; 
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+h2{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+.first{
+  border: 3px solid rgb(204, 0, 255);
+  border-radius: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+.tekst{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  color: #f8f8f8;
+}
+.slika{
+  max-width: 1200px;
+  align-items: center;
+}
+body {
+  background-color: #232323;
+}
+.kolona {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.red::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+table{
+  margin: 30px;
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+td{
+  border: 2px solid white;
+  padding: 10px;
+}
+tr{
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
